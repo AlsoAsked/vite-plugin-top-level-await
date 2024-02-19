@@ -24,6 +24,7 @@
     "await"
   ],
   "scripts": {
+    "prepare": "yarn build",
     "build": "tsc",
     "test": "jest --verbose --coverage",
     "format": "prettier --write '**/*.{mjs,cjs,js,ts}'"
